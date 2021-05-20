@@ -63,13 +63,13 @@ CalculadoraSoma(){
 		labelNum2.setFont(fonte);
 		soma.setFont(fonte);
 		resultado.setFont(fonte);
-		numero1.setPreferredSize(new Dimension(200, 30));
-		numero2.setPreferredSize(new Dimension(200, 30));
+		numero1.setPreferredSize(new Dimension(300, 40));
+		numero2.setPreferredSize(new Dimension(300, 40));
 		titulo.setHorizontalAlignment(SwingConstants.CENTER);
 		resultado.setHorizontalAlignment(SwingConstants.CENTER);
 		
 		
-		setSize(700,350); //Tamanho janela
+		setSize(700,400); //Tamanho janela
 		setTitle("Calculadora de Somar"); 
 		setLocationRelativeTo(null); 
 		setVisible(true);
