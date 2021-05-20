@@ -25,7 +25,7 @@ public class CalculadoraSoma extends JFrame{
 	JLabel resultado = new JLabel("Resultado soma = ");
 	JButton soma = new JButton("somar"); 
 	
-	Font fonte = new Font("Arial",Font.BOLD,25);
+	Font fonte = new Font("Arial",Font.BOLD,20);
 	
 	JPanel frameNum1 = new JPanel();
 	JPanel frameNum2 = new JPanel();
